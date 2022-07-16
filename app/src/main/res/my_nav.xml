@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splash"
-        android:name="com.example.challengechap7.view.Splash"
+        android:name="com.example.themoviedb.view.Splash"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/login"
-        android:name="com.example.challengechap7.view.Login"
+        android:name="com.example.themoviedb.view.Login"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -37,12 +37,12 @@
     </fragment>
     <fragment
         android:id="@+id/register"
-        android:name="com.example.challengechap7.view.Register"
+        android:name="com.example.themoviedb.view.Register"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" />
     <fragment
         android:id="@+id/home"
-        android:name="com.example.challengechap7.view.Home"
+        android:name="com.example.themoviedb.view.Home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.challengechap7.view.Profile"
+        android:name="com.example.themoviedb.view.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" >
         <action
@@ -65,11 +65,11 @@
     </fragment>
     <fragment
         android:id="@+id/detail"
-        android:name="com.example.challengechap7.view.Detail"
+        android:name="com.example.themoviedb.view.Detail"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="data"
-            app:argType="com.example.challengechap7.model.Result" />
+            app:argType="com.example.themoviedb.model.Result" />
     </fragment>
 </navigation>

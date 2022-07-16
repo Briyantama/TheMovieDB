@@ -4,14 +4,14 @@ plugins {
     id 'kotlin-kapt'
     id 'kotlin-parcelize'
     id 'androidx.navigation.safeargs'
+    id 'kotlin-android'
 }
-apply plugin: 'kotlin-android'
 
 android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.challengechap7"
+        applicationId "com.example.themoviedb.briyan"
         minSdk 27
         targetSdk 32
         versionCode 1
@@ -24,21 +24,6 @@ android {
     }
     buildFeatures{
         viewBinding true
-    }
-    flavorDimensions "default"
-    productFlavors{
-        paid{
-            dimension "default"
-            versionCode 1
-            versionName "1.0"
-            applicationIdSuffix ".paid"
-        }
-        free{
-            dimension "default"
-            versionCode 1
-            versionName "1.0"
-            applicationIdSuffix ".free"
-        }
     }
     buildTypes {
         release {
